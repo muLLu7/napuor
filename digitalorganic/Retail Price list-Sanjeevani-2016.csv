@@ -1,0 +1,189 @@
+id,brand,category,sku,pack,unit,code,MRP,expiry,case,image,description,price,active
+1,Sanjeevani Organics,Cereals,Biryani Rice,1000,GM,8906054840970,247,24 Months,20,/media/product/biryani-rice.jpg,,247,1
+2,Sanjeevani Organics,Cereals,Premium Basmati Rice,1000,GM,8906054840000,207,24 Months,20,/media/product/PremiumBasmati Rice-Front.png,,207,1
+3,Sanjeevani Organics,Cereals,Premium Brown Rice,1000,GM,8906054840017,207,24 Months,20,/media/product/PremiumBrown Rice-front.png,,207,1
+4,Sanjeevani Organics,Cereals,Parmal Rice,1000,GM,8906054840031,115,24 Months,20,/media/product/Parmal Rice-Front.png,,115,1
+5,Sanjeevani Organics,Cereals,Parmal Rice,5000,GM,8906054841366,552,24 Months,5,/media/product/Parmal Rice-Front.png,,552,1
+6,Sanjeevani Organics,Cereals,Regular Basmati Rice (ROZANA),1000,GM,8906054840024,144,24 Months,20,/media/product/Regular Basmati Rice (ROZANA)-Front.png,,144,1
+7,Sanjeevani Organics,Cereals,Regular Basmati Rice  (ROZANA),5000,GM,8906054841373,690,24 Months,5,/media/product/Regular Basmati Rice (ROZANA)-Front.png,,690,1
+8,Sanjeevani Organics,Cereals,Rice Sona Masoori,1000,GM,8906054840963,104,24 Months,20,/media/product/RiceSonaMasoori-ContentmissingDuplicate1kg.jpg-Back.png,,104,1
+9,Sanjeevani Organics,Cereals,Rice Sona Masoori,5000,GM,8906054840963,483,24 Months,5,/media/product/RiceSonaMasoori-ContentmissingDuplicate1kg.jpg-Back.png,,483,1
+10,Sanjeevani Organics,Cereals,Rice Sona Masoori Brown,1000,GM,8906054841762,104,24 Months,20,/media/product/RiceSonaMasoori Brown-Front.png,,104,1
+11,Sanjeevani Organics,Cereals,Rice Sona Masoori Brown,5000,GM,8906054841779,489,24 Months,5,/media/product/RiceSonaMasoori Brown-Front.png,,489,1
+12,Sanjeevani Organics,Cereals,Ponny Rice ,2000,GM,8906054841960,222,24 Months,10,/media/product/brown rice.jpg,,222,1
+13,Sanjeevani Organics,Cereals,Idli Rice,2000,GM,8906054842073,199,24 Months,10,/media/product/idli rice.jpg,,199,1
+14,Sanjeevani Organics,Cereals Based,Rice Poha,250,GM,8906054840857,35,9 Months,25,/media/product/Rice Poha-Front.png,,35,1
+15,Sanjeevani Organics,Cereals Based,Rice Poha,500,GM,8906054840857,63,9 Months,20,/media/product/Rice Poha-Front.png,,63,1
+16,Sanjeevani Organics,Cereals Based,Jowar (Sorghum)  Chiwada ,200,GM,8906054841663,92,9 Months,30,/media/product/jowar chiwada.jpg,,92,1
+17,Sanjeevani Organics,Cereals Based,Whole Wheat Flour,5000,GM,8906054840062,295,9 Months,5,/media/product/whole wheat flour.jpg,,295,1
+18,Sanjeevani Organics,Cereals Based,Whole Wheat Flour,2000,GM,8906054841816,127,9 Months,10,/media/product/whole wheat flour.jpg,,127,1
+19,Sanjeevani Organics,Cereals Based,Multigrain Flour (Atta),1000,GM,8906054840079,121,9 Months,10,/media/product/Multigrain Flour (Atta)-Front.png,,121,1
+20,Sanjeevani Organics,Cereals Based,Corn Flour (Makki Ka Atta),500,GM,8906054840673,54,9 Months,12,/media/product/Corn Flour (Makki Ka Atta)-Front.png,,54,1
+21,Sanjeevani Organics,Cereals Based,Ragi Flour (Mandua Atta),500,GM,8906054841830,60,9 Months,12,/media/product/RagiFlour-Front.png,,60,1
+22,Sanjeevani Organics,Cereals Based,Bajra Atta,500,GM,8906054840680,50,9 Months,12,/media/product/Bajra Atta-Front.png,,50,1
+23,Sanjeevani Organics,Cereals Based,Jaun ka Atta (Barley flour),500,GM," 
+8906054842042",59,9 Months,12,/media/product/Jaun ka Atta (Barley flour)-front.png,,59,1
+24,Sanjeevani Organics,Cereals Based,Soyabean ka Atta ,500,GM,8906054840703,78,9 Months,12,/media/product/Soyabean ka Atta-Front.png,,78,1
+25,Sanjeevani Organics,Cereals Based,Jowar (Sorghum) Idli Mix Flour,500,GM,8906054842080,125,9 Months,30,/media/product/jowar-idli-mix-250x250.jpg,,125,1
+26,Sanjeevani Organics,Cereals Based,Wheat Suji,500,GM,8906054840055,44,9 Months,30,/media/product/Wheat Suji.jpg,,44,1
+27,Sanjeevani Organics,Cereals Based,Wheat Maida,500,GM,8906054840840,46,9 Months,20,/media/product/wheat maida.jpg,,46,1
+28,Sanjeevani Organics,Cereals Based,Jowar(Sorghum)  Rava,500,GM,8906054842097,80,9 Months,30,/media/product/jowar rava.jpg,,80,1
+29,Sanjeevani Organics,Cereals Based,Wheat Dalia (Porridge) ,500,GM,8906054840048,52,9 Months,30,/media/product/wheat dalia.jpg,,52,1
+30,Sanjeevani Organics,Ghee,Premium Cow Ghee,1000,ML,8906054840765,870,12 Months,8,/media/product/Premium Cow Ghee.JPG,,870,1
+31,Sanjeevani Organics,Ghee,Premium Cow Ghee,500,ML,8906054840772,448,12 Months,12,/media/product/Premium Cow Ghee.JPG,,448,1
+32,Sanjeevani Organics,Healthy Foods,Almonds ,150,Gm,8906054840666,299,12 Months,36,/media/product/almond.jpeg,,299,1
+33,Sanjeevani Organics,Healthy Foods,Amla Candy Spicy,200,GM,8906054840895,108,12 Months,36,/media/product/amla candy spicy.png,,108,1
+34,Sanjeevani Organics,Healthy Foods,Amla Candy Sweet,200,GM,8906054840888,108,12 Months,36,/media/product/amla candy sweet.png,,108,1
+35,Sanjeevani Organics,Healthy Foods,Amlaprash,500,GM,8906054840918,282,12 Months,30,/media/product/amlaprash.jpg,,282,1
+36,Sanjeevani Organics,Healthy Foods,Cashew  ,150,GM,8906054840659,276,12 Months,36,/media/product/cashews.png,,276,1
+37,Sanjeevani Organics,Healthy Foods,Corn Flakes,250,GM,8906054840987,132,9 Months,15,/media/product/corn flakes.png,,132,1
+38,Sanjeevani Organics,Healthy Foods,Honey ,500,GM,8906054845760,292,24 Months,24,/media/product/honey.png,,292,1
+39,Sanjeevani Organics,Healthy Foods,Honey ,250,GM,8906054845753,158,24 Months,36,/media/product/honey.png,,158,1
+40,Sanjeevani Organics,Healthy Foods,Mint Honey (Mentha Honey),250,GM,8906054845784,170,24 Months,24,/media/product/Honey.jpg,,170,1
+41,Sanjeevani Organics,Healthy Foods,Holy Basil Honey (Tulsi Honey),250,GM,8906054845777,170,24 Months,24,/media/product/Honey.jpg,,170,1
+42,Sanjeevani Organics,Healthy Foods,Masala Honey (Condiment Honey),250,GM,8906054845791,170,24 Months,24,/media/product/Honey.jpg,,170,1
+43,Sanjeevani Organics,Healthy Foods,Van Tulsi Honey ,250,GM,8906054841441,170,24 Months,24,/media/product/Honey.jpg,,170,1
+44,Sanjeevani Organics,Healthy Foods,Wheat Grass,100,GM,8906054845906,340,12 Months,9,/media/product/wheat grass.png,,340,1
+45,Sanjeevani Organics,Healthy Foods,Raisins,200,GM,8906054840994,190,24 Months,36,/media/product/raisins.jpg,,190,1
+46,Sanjeevani Organics,Healthy Foods,Gulkand (Rose petals jam),470,GM,8906054845883,184,24 Months,12,/media/product/gulkand.jpg,,184,1
+47,Sanjeevani Organics,Indian Beverages,CTC Tea,250,GM,8906054840611,161,12 Months,30,/media/product/CTC Tea  organic.jpg,,161,1
+48,Sanjeevani Organics,Indian Beverages,Green Tea ,200,GM,8906054840604,288,18 month,30,/media/product/tea.jpg,,288,1
+49,Sanjeevani Organics,Oil,Coconut oil ,200,ML,8906054841014,105,12 Months,30,/media/product/coconut oil.jpg,,105,1
+50,Sanjeevani Organics,Oil,Coconut oil ,500,ML,8906054840697,260,12 Months,12,/media/product/coconut oil raw.png,,260,1
+51,Sanjeevani Organics,Oil,Groundnut Oil,1000,ML,8906054840925,325,12 Months,12,/media/product/Groundnut_Oil_1L_1.png,,325,1
+52,Sanjeevani Organics,Oil,Mustard oil ,1000,ML,8906054845661,275,12 Months,12,/media/product/mustard oil.jpeg.jpg,,275,1
+53,Sanjeevani Organics,Oil,Sesame oil ,1000,ML,8906054845685,352,12 Months,12,/media/product/Sesame oil .JPG,,352,1
+54,Sanjeevani Organics,Oil,Sunflower oil ,1000,ML,8906054845708,275,12 Months,12,/media/product/Sunflower Oil.png,,275,1
+55,Sanjeevani Organics,Oil,Sesame oil ,5000,ML,8906054841786,1650,12 Months,4,/media/product/Sesame oil .JPG,,1650,1
+56,Sanjeevani Organics,Oil,Groundnut oil ,5000,ML,8906054841786,1540,12 Months,4,/media/product/groundnut.JPG,,1540,1
+57,Sanjeevani Organics,Oil,Sunflower oil ,5000,ML,8906054841793,1298,12 Months,4,/media/product/Sunflower Oil.png,,1298,1
+58,Sanjeevani Organics,Oil,Mustard oil ,5000,ML,8906054841809,1309,12 Months,4,/media/product/Mustard Oil.JPG,,1309,1
+59,Sanjeevani Organics,Pulses,Arhar Dal,1000,GM,8906054840215,290,12 Months,16,/media/product/Arhar Dal.png,,290,1
+60,Sanjeevani Organics,Pulses,Arhar Dal,500,GM,8906054840222,149,12 Months,36,/media/product/Arhar Dal.png,,149,1
+61,Sanjeevani Organics,Pulses,Chana whole ,1000,GM,8906054840338,190,12 Months,20,/media/product/chana whole.jpg,,190,1
+62,Sanjeevani Organics,Pulses,Chana whole ,500,GM,8906054840345,98,12 Months,36,/media/product/chana whole.jpg,,98,1
+63,Sanjeevani Organics,Pulses,Chana Dal,1000,GM,8906054840291,194,12 Months,20,/media/product/chana-dal.png,,194,1
+64,Sanjeevani Organics,Pulses,Chana Dal,500,GM,8906054840307,99,12 Months,36,/media/product/chana-dal.png,,99,1
+65,Sanjeevani Organics,Pulses,Cowpea Black eye,1000,GM,8906054840390,175,12 Months,20,/media/product/Cowpea Black eye-Front.png,,175,1
+66,Sanjeevani Organics,Pulses,Cowpea Black eye,500,GM,8906054840406,90,12 Months,36,/media/product/Cowpea Black eye-Front.png,,90,1
+67,Sanjeevani Organics,Pulses,Kabuli chana ,1000,GM,8906054840314,265,12 Months,20,/media/product/kabuli chana.png,,265,1
+68,Sanjeevani Organics,Pulses,Kabuli chana ,500,GM,8906054840321,135,12 Months,36,/media/product/kabuli chana.png,,135,1
+69,Sanjeevani Organics,Pulses,Malka Masur ,1000,GM,8906054840253,199,12 Months,20,/media/product/malka massor.jpg,,199,1
+70,Sanjeevani Organics,Pulses,Malka Masur ,500,GM,8906054840260,102,12 Months,36,/media/product/malka massor.jpg,,102,1
+71,Sanjeevani Organics,Pulses,Masur split washed,1000,GM,8906054840277,218,12 Months,20,/media/product/Masur split washed(Masri)-Front.png,,218,1
+72,Sanjeevani Organics,Pulses,Masur split washed,500,GM,8906054840284,110,12 Months,36,/media/product/Masur split washed(Masri)-Front.png,,110,1
+73,Sanjeevani Organics,Pulses,Masur whole,1000,GM,8906054840239,192,12 Months,20,/media/product/Masur whole-Front.png,,192,1
+74,Sanjeevani Organics,Pulses,Masur whole,500,GM,8906054840246,99,12 Months,36,/media/product/Masur whole-Front.png,,99,1
+75,Sanjeevani Organics,Pulses,Matra (Green Pea Dried),1000,GM,8906054841687,148,12 Months,20,/media/product/Matra (Green Pea Dried)-Front.png,,148,1
+76,Sanjeevani Organics,Pulses,Matra (Green Pea Dried),500,GM,8906054841694,77,12 Months,36,/media/product/Matra (Green Pea Dried)-Front.png,,77,1
+77,Sanjeevani Organics,Pulses,Moong ki Mangodi/wadi,500,GM,8906054841885,184,12 Months,16,/media/product/Moong ki Mangodi wadi (500 gm in 1 kg pack) (1)-Front.png,,184,1
+78,Sanjeevani Organics,Pulses,Moong  Split,1000,GM,8906054840116,228,12 Months,20,/media/product/moong-split.jpg,,228,1
+79,Sanjeevani Organics,Pulses,Moong  Split,500,GM,8906054840123,116,12 Months,36,/media/product/moong-split.jpg,,116,1
+80,Sanjeevani Organics,Pulses,Moong Split Washed,1000,GM,8906054840130,250,12 Months,20,/media/product/moong-split.jpg,,250,1
+81,Sanjeevani Organics,Pulses,Moong Split Washed,500,GM,8906054840147,127,12 Months,36,/media/product/moong-split.jpg,,127,1
+82,Sanjeevani Organics,Pulses,Moong Whole,1000,GM,8906054840093,220,12 Months,20,/media/product/moong-whole.png,,220,1
+83,Sanjeevani Organics,Pulses,Moong Whole,500,GM,8906054840109,112,12 Months,36,/media/product/moong-whole.png,,112,1
+84,Sanjeevani Organics,Pulses,Moth Whole (Dal),1000,GM,8906054841748,222,12 Months,20,/media/product/moth whole.jpg,,222,1
+85,Sanjeevani Organics,Pulses,Moth Whole (Dal),500,GM,8906054841755,118,12 Months,36,/media/product/moth whole.jpg,,118,1
+86,Sanjeevani Organics,Pulses,Peanuts ,500,GM,8906054840789,132,12 Months,30,/media/product/peanuts.jpg,,132,1
+87,Sanjeevani Organics,Pulses,Pindi Choley (Small Chickpea White),1000,GM,8906054841700,225,12 Months,20,/media/product/Pindi Choley (Small Chickpea White)-Front.png,,225,1
+88,Sanjeevani Organics,Pulses,Pindi Choley (Small Chickpea White),500,GM,8906054841717,118,12 Months,36,/media/product/Pindi Choley (Small Chickpea White)-Front.png,,118,1
+89,Sanjeevani Organics,Pulses,Pachrangi Dal ,1000,GM,8906054841328,290,12 Months,20,/media/product/pachrangi dal.jpg,,290,1
+90,Sanjeevani Organics,Pulses,Pachrangi Dal ,500,GM,8906054841311,155,12 Months,36,/media/product/pachrangi dal.jpg,,155,1
+91,Sanjeevani Organics,Pulses,Rajma Chitra,1000,GM,8906054840376,215,12 Months,20,/media/product/Rajma Chitra-Front.png,,215,1
+92,Sanjeevani Organics,Pulses,Rajma Chitra,500,GM,8906054840383,110,12 Months,36,/media/product/Rajma Chitra-Front.png,,110,1
+93,Sanjeevani Organics,Pulses,Rajma Red ,1000,GM,8906054840352,225,12 Months,20,/media/product/Rajma Red-Front.png,,225,1
+94,Sanjeevani Organics,Pulses,Rajma Red ,500,GM,8906054840369,115,12 Months,36,/media/product/Rajma Red-Front.png,,115,1
+95,Sanjeevani Organics,Pulses,Rajma Jammu,1000,GM,8906054841519,225,12 Months,20,/media/product/Rajma Jammu-Front.png,,225,1
+96,Sanjeevani Organics,Pulses,Rajma Jammu,500,GM,8906054841502,115,12 Months,36,/media/product/Rajma Jammu-Front.png,,115,1
+97,Sanjeevani Organics,Pulses,Soya Bean Whole,1000,GM,8906054841847,144,12 Months,20,/media/product/soyabean whole.png,,144,1
+98,Sanjeevani Organics,Pulses,Soya Bean Whole,500,GM,8906054841854,74,12 Months,36,/media/product/soyabean whole.png,,74,1
+99,Sanjeevani Organics,Pulses,Urad Split,1000,GM,8906054840178,305,12 Months,20,/media/product/urad split.png,,305,1
+100,Sanjeevani Organics,Pulses,Urad Split,500,GM,8906054840185,160,12 Months,36,/media/product/urad split.png,,160,1
+101,Sanjeevani Organics,Pulses,Urad Washed split,1000,GM,8906054840192,345,12 Months,20,/media/product/urad split.png,,345,1
+102,Sanjeevani Organics,Pulses,Urad Washed split,500,GM,8906054840208,176,12 Months,36,/media/product/urad split.png,,176,1
+103,Sanjeevani Organics,Pulses,Urad Whole,1000,GM,8906054840154,299,12 Months,20,/media/product/urad whole.jpeg,,299,1
+104,Sanjeevani Organics,Pulses,Urad Whole,500,GM,8906054840161,154,12 Months,36,/media/product/urad whole.jpeg,,154,1
+105,Sanjeevani Organics,Pulses Based,Chana Besan,500,GM,8906054840086,98,9 Months,20,/media/product/chana besan.jpg,,98,1
+106,Sanjeevani Organics,Pulses Based,Jaun Chana Sattu,500,GM,8906054841007,106,9 Months,20,/media/product/jaun sattu.jpg,,106,1
+107,Sanjeevani Organics,Spices,Ajwain (Carom Seeds),100,GM,8906054840581,52,12 Months,24,/media/product/ajwain .jpg,,52,1
+108,Sanjeevani Organics,Spices,Amchur Powder,100,GM,8906054840598,58,12 Months,24,/media/product/amchur-dry-mango-powder-250x250.png,,58,1
+109,Sanjeevani Organics,Spices,Red Chilli Powder,100,GM,8906054840437,52,12 Months,24,/media/product/red-chilli-powder-250x250.jpg,,52,1
+110,Sanjeevani Organics,Spices,Red Chilli Whole,50,GM,8906054840420,35,12 Months,30,/media/product/red-chilli-whole.jpg,,35,1
+111,Sanjeevani Organics,Spices,Coriander Powder,100,GM,8906054840468,49,12 Months,24,/media/product/coriander powder.jpg,,49,1
+112,Sanjeevani Organics,Spices,Coriander Whole,100,GM,8906054840444,49,12 Months,30,/media/product/Corriander Whole Seeds-228x228.png,,49,1
+113,Sanjeevani Organics,Spices,Cumin Whole,100,GM,8906054840475,69,12 Months,24,/media/product/cumin_seeds_5.jpg,,69,1
+114,Sanjeevani Organics,Spices,Turmeric powder,100,GM,8906054840413,39,12 Months,24,/media/product/turmeric powder.png,,39,1
+115,Sanjeevani Organics,Spices,Fennel (Saunf),100,GM,8906054841021,62,12 Months,24,/media/product/fennel.png,,62,1
+116,Sanjeevani Organics,Spices,Fenugreek ,100,GM,8906054840505,31,12 Months,24,/media/product/Fenugreek-Seed_leafs.png,,31,1
+117,Sanjeevani Organics,Spices,Saunth Powder (Ginger powder),100,GM,8906054841915,81,12 Months,24,/media/product/ginger powder.jpeg,,81,1
+118,Sanjeevani Organics,Spices,Heeng Powder,25,GM,8906054840871,58,12 Months,30,/media/product/hing powder.jpeg,,58,1
+119,Sanjeevani Organics,Spices,Hing large pack (pet jar),150,GM,8906054841939,299,12 Months,20,/media/product/hing powder.jpeg,,299,1
+120,Sanjeevani Organics,Spices,Mustard Black,50,GM,8906054840451,23,12 Months,30,/media/product/mustard black.jpeg,,23,1
+121,Sanjeevani Organics,Spices,Rai ,50,GM,8906054840482,24,12 Months,30,/media/product/rai.png,,24,1
+122,Sanjeevani Organics,Spices,Til Sesame White,100,GM,8906054840499,55,12 Months,24,/media/product/til sisame white.jpeg,,55,1
+123,Sanjeevani Organics,Spices,Til Sesame black,100,GM,8906054841892,55,12 Months,24,/media/product/Til Sesame.jpeg,,55,1
+124,Sanjeevani Organics,Spices,Red Chilli Powder,250,GM,8906054841625,110,12 Months,20,/media/product/red-chilli-powder-250x250.jpg,,110,1
+125,Sanjeevani Organics,Spices,Turmeric powder,250,GM,8906054841649,94,12 Months,20,/media/product/turmeric powder.png,,94,1
+126,Sanjeevani Organics,Spices,Corriander Powder,250,GM,8906054841656,94,12 Months,20,/media/product/coriander powder.jpg,,94,1
+127,Sanjeevani Organics,Spices,Corriander Whole,250,GM,8906054840727,99,12 Months,20,/media/product/Corriander Whole Seeds-228x228.png,,99,1
+128,Sanjeevani Organics,Spices,Cumin Whole,250,GM,8906054841632,127,12 Months,20,/media/product/cumin_seeds_5.jpg,,127,1
+129,Sanjeevani Organics,Spices,Paav Bhaji Masala ,100,GM,8906054846088,127,12 Months,20,/media/product/pav bhaji masala.jpg,,127,1
+130,Sanjeevani Organics,Spices,Chat Masala ,100,GM,8906054846163,127,12 Months,20,/media/product/chat masala.jpg,,127,1
+131,Sanjeevani Organics,Spices,Sabji Masala ,100,GM,8906054846057,167,12 Months,20,/media/product/sabji masala.jpg,,167,1
+132,Sanjeevani Organics,Spices,Meat Masala ,100,GM,8906054846064,167,12 Months,20,/media/product/meat masala.jpg,,167,1
+133,Sanjeevani Organics,Spices,Chicken Masala ,100,GM,8906054846040,167,12 Months,20,/media/product/chicken masala.jpg,,167,1
+134,Sanjeevani Organics,Spices,Sambhar Masala ,100,GM,8906054846071,167,12 Months,20,/media/product/sambar masala.jpg,,167,1
+135,Sanjeevani Organics,Spices,Chole Masala ,100,GM,8906054846095,167,12 Months,20,/media/product/chole masala.jpeg,,167,1
+136,Sanjeevani Organics,Spices,Thym,40,GM,8906054841557,104,12 Months,20,/media/product/thym.png,,104,1
+137,Sanjeevani Organics,Spices,Parsley,40,GM,8906054841564,104,12 Months,20,/media/product/parsley.png,,104,1
+138,Sanjeevani Organics,Spices,Basil,40,GM,8906054841571,104,12 Months,20,/media/product/Basil.png,,104,1
+139,Sanjeevani Organics,Spices,Oregano,60,GM,8906054841588,104,12 Months,20,/media/product/Oregano.png,,104,1
+140,Sanjeevani Organics,Spices,Rosemary,40,GM,8906054841595,104,12 Months,20,/media/product/rosemary.gif,,104,1
+141,Sanjeevani Organics,Spices,Chili Flakes,60,GM,8906054841601,104,12 Months,20,/media/product/chilli flakes.png,,104,1
+142,Sanjeevani Organics,Spices,Cinamon Powder,90,GM,8906054841618,115,12 Months,20,/media/product/cinamon stick.jpg,,115,1
+143,Sanjeevani Organics,Spices /Condiments,Bay Leaves,50,GM,8906054840550,46,12 Months,30,/media/product/bay leaves.png,,46,1
+144,Sanjeevani Organics,Spices /Condiments,Black Pepper Powder,50,GM,8906054840574,115,12 Months,30,/media/product/black-pepper-smaller.jpg,,115,1
+145,Sanjeevani Organics,Spices /Condiments,Black Pepper Whole,100,GM,8906054840567,242,12 Months,24,/media/product/black-pepper-smaller.jpg,,242,1
+146,Sanjeevani Organics,Spices /Condiments,Cardamom Black Whole,50,GM,8906054840512,180,12 Months,30,/media/product/cardamom black whole.jpg,,180,1
+147,Sanjeevani Organics,Spices /Condiments,Cardamom Green Whole,50,GM,8906054840529,155,12 Months,20,/media/product/cardamom-green.jpg,,155,1
+148,Sanjeevani Organics,Spices /Condiments,Cinnamon Stick ,50,GM,8906054840536,52,12 Months,24,/media/product/cinamon stick.jpg,,52,1
+149,Sanjeevani Organics,Spices /Condiments,Clove,50,GM,8906054840543,173,12 Months,20,/media/product/clove.jpeg,,173,1
+150,Sanjeevani Organics,Spices /Condiments,Rock Salt,500,GM,8906054840949,42,24 Months,36,/media/product/RockSalt-Front.png,,42,1
+151,Sanjeevani Organics,Spices /Condiments,Rock Salt,1000,GM,8906054841823,63,24 Months,20,/media/product/RockSalt-Front.png,,63,1
+152,Sanjeevani Organics,Spices /Condiments,Himalayan Pink salt,175,GM,8906054845623,69,24 Months,20,/media/product/himalayan pink salt.jpg,,69,1
+153,Sanjeevani Organics,Spices /Condiments,Kala Namak (Black Salt),100,GM,8906054841908,20,24 Months,24,/media/product/kala-namak-black-salt-None.jpg,,20,1
+154,Sanjeevani Organics,Sugar Products,Brown Sugar,1000,GM,8906054840833,140,12 Months,20,/media/product/Brown Sugar-Front.png,,140,1
+155,Sanjeevani Organics,Sugar Products,White Sugar,1000,GM,8906054840628,115,24 Months,20,/media/product/sugar white.png,,115,1
+156,Sanjeevani Organics,Sugar Products,White Sugar,5000,GM,8906054840710,520,24 Months,5,/media/product/sugar white.png,,520,1
+157,Sanjeevani Organics,Sugar Products,Bura (Dry Grainy Powder Sugar) ,500,GM,8906054841489,55,24 Months,20,/media/product/sugrar dry grainy.jpg,,55,1
+158,Sanjeevani Organics,Sugar Products,Jaggery,1000,GM,8906054840635,121,4 Months,16,/media/product/jaggery.jpg,,121,1
+159,Sanjeevani Organics,Sugar Products,Jaggery Powder (Pet Jar),1000,GM,8906054840642,144,4 Months,10,/media/product/jaggery powder.jpg,,144,1
+160,Sanjeevani Organics,Sugar Products,Jaggery Powder,500,GM,8906054840642,69,4 Months,30,/media/product/jaggery powder.jpg,,69,1
+161,Sanjeevani Organics,Processed Products,Urad Papad,200,GM,8906054841038,98,6 Months,24,/media/product/urad dal papad.jpg,,98,1
+162,Sanjeevani Organics,Processed Products,Moong Urad Papad,200,GM,8906054841045,109,6 Months,24,/media/product/urad-papad-moong-papad-special-masala-papad-250x250.jpeg,,109,1
+163,Sanjeevani Organics,Processed Products,Punjabi Papad,200,GM,8906054841052,109,6 Months,24,/media/product/urad-papad-moong-papad-special-masala-papad-250x250.jpeg,,109,1
+164,Sanjeevani Organics,Processed Products,Mango Pickle,350,GM,8906054841182,150,12 Months,12,/media/product/Mango-Pickle_large.png,,150,1
+165,Sanjeevani Organics,Processed Products,Mango Hing Pickle,350,GM,8906054841199,150,12 Months,12,/media/product/mango pickle hing.jpg,,150,1
+166,Sanjeevani Organics,Processed Products,Lemon Pickle,350,GM,8906054841205,150,12 Months,12,/media/product/lemon pickle.jpg,,150,1
+167,Sanjeevani Organics,Processed Products,Nimbu ka Meetha Achar ,350,GM,8906054841922,150,12 Months,12,/media/product/nimbu ka mitha achar.png,,150,1
+168,Sanjeevani Organics,Processed Products,Chilli Pickle,350,GM,8906054841212,150,12 Months,12,/media/product/Chilli Pickle b.JPG,,150,1
+169,Sanjeevani Organics,Processed Products,Garlic Pickle,350,GM,8906054841229,150,12 Months,12,/media/product/garlic pickle.png,,150,1
+170,Sanjeevani Organics,Processed Products,Mix Pickle,350,GM,8906054841243,150,12 Months,12,/media/product/mixed pickle.png,,150,1
+171,Sanjeevani Organics,Processed Products,Puffed Rice( Murmura),200,GM,8906054840864,38,9 Months,10,/media/product/puffed rice.jpg,,38,1
+172,Sanjeevani Organics,Processed Products,Wheat Flakes,250,GM,8906054841335,132,9 Months,15,/media/product/wheat flakes.png,,132,1
+173,Sanjeevani Organics,Processed Products,Oat Flakes,250,GM,8906054841342,132,9 Months,15,/media/product/oat flakes.png,,132,1
+174,Sanjeevani Organics,Processed Products,Jowar(Sorghum) Flakes,250,GM,8906054840796,132,9 Months,15,/media/product/jowar flakes.png,,132,1
+175,Sanjeevani Organics,Processed Products,Roasted Flaxseed,150,GM,8906054841120,81,18 month,36,/media/product/flax seed roasted.png,,81,1
+176,Sanjeevani Organics,Processed Products,Plain Flaxseed ,100,GM,8906054841540,40,6 Months,36,/media/product/flax seed.jpg,,40,1
+177,Sanjeevani Organics,Processed Products,Cow Milk Powder ,100,GM,8906054841113,114,12 Months,36,/media/product/milk powder.png,,114,1
+178,Sanjeevani Organics,Processed Products,Tulsi Tea Bags,25,BAGS,8906054841137,167,24 Months,12,/media/product/tulsi tea bags.jpg,,167,1
+179,Sanjeevani Organics,Processed Products,Lemon Tea Bags,25,BAGS,8906054841144,167,24 Months,12,/media/product/lemon tea.png,,167,1
+180,Sanjeevani Organics,Processed Products,Garam Masala,100,GM,8906054841175,114,12 Months,20,/media/product/garam masala.jpeg,,114,1
+181,Sanjeevani Organics,Processed Products,Pasta Fusilli,250,GM,8906054841281,69,9 Months,20,/media/product/Pasta Fusilli (250 gm in 1 kg pack)-Front.png,,69,1
+182,Sanjeevani Organics,Processed Products,Pasta Penne,250,GM,8906054841298,69,9 Months,20,/media/product/pasta penne.png,,69,1
+183,Sanjeevani Organics,Processed Products,Pasta Macroni,250,GM,8906054841304,69,9 Months,30,/media/product/pasta macroni.png,,69,1
+184,Sanjeevani Organics,Processed Products,Tomato Sauce,500,GM,8906054845876,167,12 Months,12,/media/product/tomato sauce.png,,167,1
+185,Sanjeevani Organics,Processed Products,Mango Chutney Sweet,470,GM,8906054841250,196,12 Months,12,/media/product/mango-chutney.png,,196,1
+186,Sanjeevani Organics,Processed Products,Soya Nugget,250,GM,8906054841410,81,9 Months,16,/media/product/soya nugget.jpeg,,81,1
+187,Sanjeevani Organics,Processed Products,Soya Chunks,250,GM,8906054841427,81,9 Months,20,/media/product/soya chunks.png,,81,1

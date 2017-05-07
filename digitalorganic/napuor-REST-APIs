@@ -1,0 +1,57 @@
+note: Authentication token needs to be used for restricted APIs. 
+
+User APIs
+
+Registration API
+-Create a new user
+curl -i -X POST -H "Content-Type:application/json" http://35.163.84.76/register/ -d '{"username":"testuser","first_name":"NapuorTest1","last_name":"", "password":"napuortest@123","confirm_password":"napuortest@123","email":"napuor@mail.com"}'
+response: {"url":"http://35.163.84.76/users/3/","username":"testuser","first_name":"NapuorTest1","last_name":"","email":"napuor@mail.com"}
+
+-Create a new customer (mapping to new user "testuser" 1:1 mapping as one customer needs to map to only one user)
+curl -i -X POST -H "Content-Type:application/json" http://35.163.84.76/customers/create -d '{"user":3,"address":"Virginia","mobile":6549877337}'
+
+
+-Login
+curl -i -X POST -H "Content-Type:application/json" http://35.163.84.76/login/ -d '{"username":"testuser","password":"napuortest@123"}'
+response : {"key":"404fb2a173ae443fc021f6a87da093d34d8fa13d"} NOTE: It will be an unique value for each login session
+
+
+Logout
+curl -X POST -H "Authorization: Token 404fb2a173ae443fc021f6a87da093d34d8fa13d" http://35.163.84.76/logout/
+response: 
+
+
+-List a particular customer account information
+curl -X GET -H "Authorization: Token 404fb2a173ae443fc021f6a87da093d34d8fa13d" http://35.163.84.76/customers/2/
+
+-Update user information (admin privilege)
+curl -i -X PUT -H "Authorization: Token 22cbc4c1166ec80d5c519d274c38712694e25741" http://localhost/user/2/ -d '{"pk": 2,"username": "pdas","email": "pdas@m.com","first_name": "priyabrata1","last_name": "das"}'
+
+
+-List all customer account information (Only for admin)
+curl -i -X POST -H "Content-Type:application/json" http://35.163.84.76/login/ -d '{"username":"admin","password":"admin@123"}'
+curl -X GET -H "Authorization: Token cfe1b36ba58427cea0dda03cb07281ccce49da9b" http://35.163.84.76/customers/list/all/
+
+
+
+-List All Users (Only for admin)
+curl -i -X POST -H "Content-Type:application/json" http://35.163.84.76/login/ -d '{"username":"admin","password":"yyyy"}'	
+curl -X GET  -H "Authorization: Token ce19cff64371e5de6e0c6d55afd86924c8aa0990"  http://35.163.84.76/users/
+-List a particular user detail (Only for admin)
+curl -i -X POST -H "Content-Type:application/json" http://35.163.84.76/login/ -d '{"username":"pdas","password":"pdas@123"}'
+curl -X GET  -H "Authorization: Token 8fb8e25b3b2cb7ad4947c7015db9ca440d224f2a"  http://35.163.84.76/user/
+
+
+Product APIs
+get all products
+curl -X GET "Content-Type:application/json"  http://35.163.84.76/products/
+get a specific product details
+curl -X GET "Content-Type:application/json"  http://35.163.84.76/products/10/
+query products based on sku(product title)
+curl -X GET "Content-Type:application/json" http://localhost/products/?sku=oil
+curl -X GET "Content-Type:application/json" http://localhost/products/?category=pulse
+curl -X GET "Content-Type:application/json" http://localhost/products/?category=spices&sku=masala
+
+
+
+

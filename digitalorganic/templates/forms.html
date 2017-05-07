@@ -1,0 +1,307 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% load crispy_forms_tags %}
+{% load static %}
+
+
+<style>
+{% block style %}
+
+
+body{
+   height:100%;
+   width:100%;
+   position: relative;
+   /*background-image:url({{MEDIA_URL}}/media/bg4.jpg) ;*//*your background image*/  
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/
+   background-size: cover;     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+}
+
+
+.scroll {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.scroll h3 {
+ font-size: 1em;
+ color: limegreen;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 40px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.square {
+    height: 100px;
+    width: 200px;
+}
+
+{% endblock %}
+</style>
+
+
+{% block content %}
+
+<div class="row">
+	<div class="col-sm-6">
+		<div class="scroll">
+					<h3>
+					    {% for c in category %} 
+					    {{ c.title }} | 
+					    {% endfor %}
+
+					</h3>
+					</div>
+
+             		
+					  <h1 id="myEstimatedPrice">
+					    Esimate
+					  </h1>
+					
+
+	</div>
+	<div class="col-sm-6">
+		<div class="img-responsive">
+        		<img src="{{MEDIA_URL}}/media/napuor-cart.png" align="right" style="width:90%;height:90%" alt="" />
+        		</div>
+
+	</div>
+
+</div>
+
+	
+   
+
+	
+    
+	
+	<form method='POST' action=''>{% csrf_token %}
+	<!--{{ form|crispy }}-->
+	<table> 
+	<tr> 
+		<td>
+		<input type="text" id="cust-fname" name="first_name"  value="" placeholder="First Name">
+		</td>
+		<td>
+		<input type="text" id="cust-lname" name="last_name"  value="" placeholder="Last Name">
+		</td>
+		<td>
+		<input type="email" id="cust-email" name="email"  value="" placeholder="e-mail">
+		</td>
+		<td>
+		<input type="number" min="1000000000" id="mobile" name="mobile"  value="" placeholder="Mobile">
+		</td>
+		<td>
+		<input type="number" min="100000" id="cust-pin" name="pincode"  value="" placeholder="Pincode">
+		</td>
+		<td>
+		<input class='btn btn-default' type='submit' value='Submit' />
+		</td>
+	</tr>
+	<tr>
+		
+		
+	</tr>	
+	</table>
+
+	<table id='itemTable'>
+
+    <tr>
+	{% for item in product  %}
+
+		{% if forloop.counter|divisibleby:"2" %}
+            
+		    <td id='itemCol1' >
+		    <div class="square"> 
+		    	<img src="{{item.image}}" style="width:100px;height:100px;">
+		    		
+		    </div>
+		    </td>
+
+  			<td id='itemCol3'>
+		    		
+		    		{{item.sku}} {{ item.pack }} {{ item.unit }}  	
+		    </td>
+
+			<td id='itemCol2'  >
+			 	    <input type="hidden" id="price_{{ item.id }}" name="price_{{ item.id }}"  value="{{ item.price }}">
+			 		<input type="number" min="0" size="2" maxlength="2" name="count_{{ item.id }}" id="num_{{ item.id }}" value="" onchange="calculate_price({{ item.id }}) ; total_price({{ cnt }});" />
+			 		 <div id={{ item.id }}> </div>
+			</td>
+
+		    </tr>
+		{% else %}
+	        <tr>	
+		    <td id='itemCol1'>
+		    <div class="square"> 
+		    	
+		    	<img src="{{item.image}}" style="width:100px;height:100px;">
+		    		
+		    </div>
+		    </td>
+   			<td id='itemCol3'>
+		    		
+		    		{{item.sku}} {{ item.pack }} {{ item.unit }}  	
+		    	
+		    </td>
+
+
+			<td id='itemCol2'>
+			 	    <input type="hidden" id="price_{{ item.id }}" name="price_{{ item.id }}"  value="{{ item.price }}">
+			 		<input type="number" min="0" size="2" maxlength="2" name="count_{{ item.id }}" id="num_{{ item.id }}" value="" onchange="calculate_price({{ item.id }}) ; total_price({{ cnt }});" />
+			 		 <div id={{ item.id }}> </div>
+			</td>
+		   
+		{% endif %}
+
+		
+	{% endfor %}		
+	</tr>
+
+	</table>
+    </form>
+
+ <div data-role="footer" data-position="fixed">
+        
+                <table>
+	        <tr>
+	        <td>
+		        <td width="20%">
+				<div class="img-responsive square">    
+		            	<img src="{{MEDIA_URL}}/media/usda.gif" align="middle" style=""  alt="" />
+				</div>	
+				
+
+				</td>
+				<td width="20%">
+				<div class="img-responsive square">    
+		            	<img src="{{MEDIA_URL}}/media/organic-certification1.png" align="middle" style=""  alt="" />
+
+				</div>	
+						
+
+				</td>
+	        
+				<td width="20%">
+				<div class="img-responsive square">    
+		            	<img src="{{MEDIA_URL}}/media/India-organic.png" align="middle" style=""  alt="" />
+
+				</div>	
+						
+
+				</td>
+				<td width="20%">
+				<div class="img-responsive square">    
+		            	<img src="{{MEDIA_URL}}/media/organic-certification2.png" align="middle" style=""  alt="" />
+
+				</div>	
+						
+
+				</td>
+				<td width="20%">
+				<div class="img-responsive square">    
+		            	<img src="{{MEDIA_URL}}/media/npop.jpg" align="middle" style=""  alt="" />
+
+				</div>	
+						
+
+				</td>
+		    </td>
+			</tr>
+
+	    </table>
+
+  </div>
+
+
+
+</div>
+
+
+
+
+{% endblock %}
+
+
+<script>
+  
+  
+  function calculate_price(id) {
+    var itm = document.getElementById(id);
+   	var val= document.getElementById('price_'+id.toString()).value;
+  	var unit = document.getElementById('num_'+id.toString()).value;
+  	var price =val * unit;
+  	console.log(unit);
+  	(itm).innerHTML = "<p>"+price+"</p>" ;
+  	
+  }
+
+  function total_price(cnt) {
+  	var tp = document.getElementById('myEstimatedPrice');
+    var tot=0;
+    var i;
+    for(i=1; i <= cnt; i++)
+    {
+	    var val= document.getElementById('price_'+i.toString()).value;
+	  	var unit = document.getElementById('num_'+i.toString()).value;
+        tot = tot + val * unit;	  		
+    }
+    console.log(tot);
+    (tp).innerHTML = "<p>"+"Rs."+tot+"</p>" ; 
+
+  }
+
+
+</script>

@@ -1,0 +1,50 @@
+
+User APIs
+
+-Login
+curl -i -X POST -H "Content-Type:application/json" http://localhost:8000/login/ -d '{"username":"pdas","password":"pdas@123"}'
+
+-List All Users
+curl -i -X POST -H "Content-Type:application/json" http://localhost:8000/login/ -d '{"username":"admin","password":"admin@123"}'	
+curl -X GET  -H "Authorization: Token ce19cff64371e5de6e0c6d55afd86924c8aa0990"  http://localhost:8000/users/
+-List a particular user detail
+curl -i -X POST -H "Content-Type:application/json" http://localhost:8000/login/ -d '{"username":"pdas","password":"pdas@123"}'
+curl -X GET  -H "Authorization: Token 8fb8e25b3b2cb7ad4947c7015db9ca440d224f2a"  http://localhost:8000/user/
+
+
+Registration API
+-Create a new user
+curl -i -X POST -H "Content-Type:application/json" http://localhost:8000/register/ -d '{"username":"napuor","first_name":"Napuor","last_name":Test", "password":"napuor@123","confirm_password":"napuor@123","email":"napuor@mail.com"}'
+-Create a new customer (mapping to new user 1:1)
+curl -i -X POST -H "Content-Type:application/json" http://localhost:8000/customers/create -d '{"user":"6","address":"miyapur","mobile":"7799877337"}'
+
+Login and Logout
+curl -i -X POST -H "Content-Type:application/json" http://localhost:8000/login/ -d '{"username":"pdas","password":"pdas@123"}'
+curl -X POST -H "Authorization: Token 65c19b02f24a6b910b0ee87786085a30c171f974" http://localhost:8000/logout/
+
+-List a particular customer account information
+curl -X GET -H "Authorization: Token 65c19b02f24a6b910b0ee87786085a30c171f974" http://localhost:8000/customers/1/
+
+-Update user information (admin privilege)
+curl -i -X PUT -H "Authorization: Token 22cbc4c1166ec80d5c519d274c38712694e25741" http://localhost/user/2/ -d '{"pk": 2,"username": "pdas","email": "pdas@m.com","first_name": "priyabrata1","last_name": "das"}'
+
+
+-List all customer account information
+curl -i -X POST -H "Content-Type:application/json" http://localhost:8000/login/ -d '{"username":"admin","password":"admin@123"}'
+curl -X GET -H "Authorization: Token cfe1b36ba58427cea0dda03cb07281ccce49da9b" http://localhost:8000/customers/list/all/
+
+
+
+Product APIs
+get all products
+curl -X GET "Content-Type:application/json"  http://localhost:8000/products/
+get a specific product details
+curl -X GET "Content-Type:application/json"  http://localhost:8000/products/10/
+query products based on sku(product title)
+curl -X GET "Content-Type:application/json" http://localhost/products/?sku=oil
+curl -X GET "Content-Type:application/json" http://localhost/products/?category=pulse
+curl -X GET "Content-Type:application/json" http://localhost/products/?category=spices&sku=masala
+
+
+
+
